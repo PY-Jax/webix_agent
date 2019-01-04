@@ -121,7 +121,7 @@ agentmanage.admin.pageOrganize.demo.loadPage = function (session) {
                 resizeColumn:true,
                 autoWidth:true,
                 autoHeight:true,
-                // url:"/json/agent.json",
+                // url:"./json/agent.json",
             }
 
         ]

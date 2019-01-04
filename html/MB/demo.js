@@ -76,7 +76,7 @@ agentmanage.admin.pageOrganize.demo.loadPage = function (session) {
                 view:"dataview",
                 css:"dataviewBox",
                 select:true,
-                url:"/json/agent.json",
+                url:"./json/agent.json",
                 type: {
                     height: 80,
                     width:appWidth,
