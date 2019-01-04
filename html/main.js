@@ -32,7 +32,7 @@ if (appBrowser.versions.mobile || appBrowser.versions.iPhone || appBrowser.versi
 }
 
 webix.ready(function () {
-    webix.ajax().get('/json/session.json',{}).then(function (result) {
+    webix.ajax().get('./json/session.json',{}).then(function (result) {
         var resp = result.json();
         if (resp.code === 1) {
             webix.message({type: "error", text: resp.msg});
