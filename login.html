@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable = no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="favicon.ico" rel="shortcut icon">
+    <link rel="stylesheet" href="codebase/webix.min.css">
+    <link rel="stylesheet" href="codebase/css/MaterialDesignIcons.css">
+    <link rel="stylesheet" href="codebase/css/public.css">
+    <link rel="stylesheet" href="css/login.css">
+    <script src="codebase/webix.min.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <title>login</title>
+</head>
+<body>
+    <script>
+        var browser = {
+            versions: function() {
+                var u = navigator.userAgent;
+                return {
+                    trident: u.indexOf('Trident') > -1, //IE内核
+                    presto: u.indexOf('Presto') > -1, //opera内核
+                    webKit: u.indexOf('AppleWebKit') > -1, //苹果、谷歌内核
+                    gecko: u.indexOf('Firefox') > -1, //火狐内核Gecko
+                    mobile: !!u.match(/AppleWebKit.*Mobile.*/), //是否为移动终端
+                    ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/), //ios
+                    android: u.indexOf('Android') > -1 || u.indexOf('Linux') > -1, //android
+                    iPhone: u.indexOf('iPhone') > -1 , //iPhone
+                    iPad: u.indexOf('iPad') > -1, //iPad
+                    webApp: u.indexOf('Safari') > -1 //Safari
+                };
+            }()
+        }
+
+        if (browser.versions.webKit) {
+            webix.require('html/login.js?curTmpTime=' + new Date().getTime());
+        }else{
+            document.getElementsByTagName('body')[0].innerHTML='</br><p>该浏览器非谷歌内核，推荐安装新版本谷歌浏览器使用本产品：<a target="_blank" href="https://sm.myapp.com/original/Browser/49.0.2623.112_chrome_installer_xp.exe">去下载安装</a></p>';
+        }
+
+    </script>
+</body>
+</html>

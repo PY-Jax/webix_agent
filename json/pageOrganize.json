@@ -1,0 +1,13 @@
+
+{"data":
+    [
+        {"code":1,"type":"super","username":"admin","password":123456,"realname":"操作员1","mobile":"123456789","email":"22566549@qq.com","create_time":"2018.12.18","remark":"备注内容1"},
+        {"code":2,"type":"super","username":"admin","password":123456,"realname":"操作员2","mobile":"123456789","email":"22566549@qq.com","create_time":"2018.12.18","remark":"备注内容1"},
+        {"code":3,"type":"super","username":"admin","password":123456,"realname":"操作员3","mobile":"123456789","email":"22566549@qq.com","create_time":"2018.12.18","remark":"备注内容1"},
+        {"code":4,"type":"super","username":"admin","password":123456,"realname":"操作员4","mobile":"123456789","email":"22566549@qq.com","create_time":"2018.12.18","remark":"备注内容1"},
+        {"code":5,"type":"super","username":"admin","password":123456,"realname":"操作员1","mobile":"123456789","email":"22566549@qq.com","create_time":"2018.12.18","remark":"备注内容1"},
+        {"code":6,"type":"super","username":"admin","password":123456,"realname":"操作员2","mobile":"123456789","email":"22566549@qq.com","create_time":"2018.12.18","remark":"备注内容1"},
+        {"code":7,"type":"super","username":"admin","password":123456,"realname":"操作员3","mobile":"123456789","email":"22566549@qq.com","create_time":"2018.12.18","remark":"备注内容1"},
+        {"code":8,"type":"super","username":"admin","password":123456,"realname":"操作员4","mobile":"123456789","email":"22566549@qq.com","create_time":"2018.12.18","remark":"备注内容1"}
+    ]
+}

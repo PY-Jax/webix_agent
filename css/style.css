@@ -1,0 +1,132 @@
+/*page-toolbar*/
+.page-toolbar {
+    background: #eee !important;
+}
+.page-toolbar .btn-delete .webixtype_base{
+    background: #ff3c3c;
+}
+.page-toolbar .btn-delete .webixtype_base:active{
+    background: #ff5b54;
+}
+.page-toolbar .webixtype_base,.page-toolbar .webix_img_btn{
+    background: #1ca1c1;
+    color: #fff;
+}
+.page-toolbar .webixtype_base:active,.page-toolbar .webix_img_btn:active{
+    background: #4bacc3;
+}
+.page-toolbar.webix_layout_toolbar.webix_toolbar .webix_img_btn_top:active {
+    background-color: #dadada;
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125)
+}
+
+.page-toolbar.webix_layout_toolbar.webix_toolbar .webix_img_btn_top:focus {
+    background-color: #dadada;
+}
+
+.page-toolbar.webix_layout_toolbar.webix_toolbar .webix_img_btn_top:hover {
+    background-color: #dadada !important;
+}
+.page-toolbar .webix_uploader button{
+    background: #eee;
+}
+.page-toolbar .webix_el_text input{
+    padding: 0 4px;
+}
+
+.page-toolbar .webix_selected.webix_segment_0:focus, .page-toolbar .webix_selected.webix_segment_0:hover, .page-toolbar .webix_selected.webix_segment_1:focus, .page-toolbar .webix_selected.webix_segment_1:hover, .page-toolbar .webix_selected.webix_segment_N:focus, .page-toolbar .webix_selected.webix_segment_N:hover {
+    background-color: #b4b6e0;
+}
+.page-toolbar .webix_segment_0.webix_selected, .page-toolbar .webix_segment_1.webix_selected, .page-toolbar .webix_segment_N.webix_selected{
+    background-color: #a3a5de;
+}
+
+/*tabbar*/
+.webix_all_tabs .webix_item_tab{
+    font-size: 14px;
+}
+@media screen and (min-width:0px) and (max-width:768px){
+    .webix_all_tabs .webix_item_tab{
+        font-size: 12px;
+    }
+}
+
+/* dataview */
+.dataviewBox {
+    border-width: 1px 0px 0 0 !important;
+}
+.dataviewBox .webix_dataview_item {
+    padding: 6px 8px 0 8px;
+    box-sizing: border-box;
+    border-width: 0;
+}
+.dataviewBox .webix_dataview_item.webix_selected{
+    border-width: 0;
+    background: transparent;
+}
+.dataviewBox .webix_dataview_item.webix_selected .dataviewCss{
+    background: #f7f7f7;
+}
+.dataviewBox .webix_dataview_item.webix_selected .dataviewCss .borderBox{
+    border-color: #5ccce7;
+}
+.dataviewCss .borderBox{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 4px;
+    border:1px solid #edeff0;
+    box-sizing: border-box;
+}
+.dataviewCss .borderBox .conts-box{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.dataviewCss .borderBox .borderBox .conts-box p{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+}
+.dataviewCss .borderBox .btn-box{
+    width: 50px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dataviewCss .borderBox .btn-box .btnDetails{
+    width: 50px;
+    height: 30px;
+    color: #fff;
+    background: #5c90c7;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* datatable btn */
+.dt_btn{
+    padding: 4px 10px;
+    margin-right: 6px;
+    background: #5c90c7;
+    text-shadow: none!important;
+    color: #fff!important;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.dt_btn.red_btn{
+    background: #F44336;
+}
+
+/* .webix_window */
+.webix_window{
+    /* box-shadow:none; */
+}
+
+/* searchBox */
+.searchBox.webix_view.webix_form {
+    background-color: #ebeff5;
+}

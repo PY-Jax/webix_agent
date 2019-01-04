@@ -1,0 +1,12 @@
+{
+  "name": "webix_agent",
+  "version": "1.0.0",
+  "description": "demo",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "live-server ./ --port=9801"
+  },
+  "author": "pyj",
+  "license": "ISC"
+}

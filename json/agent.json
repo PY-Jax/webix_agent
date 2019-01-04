@@ -1,0 +1,47 @@
+{
+	"total": 3,
+	"data": [{
+		"code": "AG10000003",
+		"parentCode": null,
+		"level": 1,
+		"maxLevel": 3,
+		"name": "代理商一号",
+		"contact": "1",
+		"mobile": "18673218345",
+		"email": "1",
+		"address": "1",
+		"credit": 0,
+		"data": null,
+		"createTime": "2018-12-20 17:01:15",
+		"remark": null
+	}, {
+		"code": "AG10000005",
+		"parentCode": null,
+		"level": 1,
+		"maxLevel": 3,
+		"name": "代理商二号",
+		"contact": "2",
+		"mobile": "18673218345",
+		"email": "2",
+		"address": "2",
+		"credit": 0,
+		"data": null,
+		"createTime": "2018-12-21 10:56:40",
+		"remark": null
+	}, {
+		"code": "AG10000007",
+		"parentCode": null,
+		"level": 1,
+		"maxLevel": 3,
+		"name": "代理商三号",
+		"contact": "4",
+		"mobile": "18673218345",
+		"email": "4",
+		"address": "4",
+		"credit": 0,
+		"data": null,
+		"createTime": "2018-12-21 14:10:12",
+		"remark": null
+	}],
+	"code": 0
+}
