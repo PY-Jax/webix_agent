@@ -14,7 +14,7 @@ agentmanage.admin.pageOrganize.demo.loadPage = function (session) {
         for (var k in params) {
             args.push(k + "=" + params[k]);
         }
-        $$(tableid).load('/json/agent.json?' + args.join("&"));
+        $$(tableid).load('./json/agent.json?' + args.join("&"));
     };
 
     webix.ui({

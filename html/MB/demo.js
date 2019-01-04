@@ -11,7 +11,7 @@ agentmanage.admin.pageOrganize.demo.loadPage = function (session) {
         $$(tableid).define("url", $$(tableid));
         $$(tableid).refresh();
         $$(tableid).clearAll();
-        $$(tableid).load('/json/agent.json?' + args.join("&"));
+        $$(tableid).load('./json/agent.json?' + args.join("&"));
     };
     webix.ui({
         id: agentmanage.admin.pageOrganize.itemId,
