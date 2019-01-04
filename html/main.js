@@ -53,7 +53,7 @@ webix.ready(function () {
                     type:"space",
                     responsive:true,
                     cols:[
-                        { view: "button", type: "htmlbutton",label:"<a href='./index.html' style='width:100%;height:100%;display:block;'><img src='../images/logo_title.png' style='width:100%;height:100%;' /></a>",width:220,},
+                        { view: "button", type: "htmlbutton",label:"<a href='./index.html' style='width:100%;height:100%;display:block;'><img src='./images/logo_title.png' style='width:100%;height:100%;' /></a>",width:220,},
                         {
                             minWidth:280,
                             id:"toolbar_navbar",
